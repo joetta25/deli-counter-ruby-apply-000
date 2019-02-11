@@ -1,6 +1,7 @@
-katz_deli = []
+require "pry"
 
-def take_a_number(katz_deli, people = "Ada", "Grace", "Kent")
+def take_a_number(katz_deli, person)
+  binding.pry
   puts " Welcome, #{people[0]}. You are number 1 in line."
   puts " Welcome, #{people[1]}. You are numebr 2 in line."
   puts " Welcome, #{people[2]}. You are number 3 in line."
